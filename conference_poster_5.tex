@@ -41,6 +41,7 @@
 \usepackage{mathtools}
 \usepackage{color}
 \usepackage{titlesec}
+\usepackage{adjustbox}
 \usepackage{tcolorbox}
 \tcbuselibrary{breakable, skins, theorems}
 \tcbset{nobeforeafter}
@@ -130,7 +131,7 @@
     \centering{
         \veryHuge \color{NavyBlue} \textbf{Half-spherical twists on derived categories of coherent sheaves} \color{Black}\\ % Title
         \Huge\text{based on arXiv:2302.12501}\\[1cm] % Subtitle
-        \huge \textbf{Hayato Arai} \\ % Author(s)
+        \Huge \textbf{Hayato Arai} \\ % Author(s)
         \huge  Graduate School of Mathematical Sciences,
         The University of Tokyo\\ % University/organization
         %email: hayato@ms.u-tokyo.ac.jp
@@ -163,10 +164,6 @@
 
     % \color{Navy} % Navy color for the abstract
 
-    % \begin{abstract}
-    %     this is abstract
-    % \end{abstract}
-
     %----------------------------------------------------------------------------------------
     %	INTRODUCTION
     %----------------------------------------------------------------------------------------
@@ -181,7 +178,7 @@
     The possible singular fibers of $\pi$ are classified by Kodaira and N\'{e}ron.
     Among them, the singular fiber of type $\textrm{I}_n$ is the cyclic configuration of $n$ smooth rational curves.
 
-    Lekili and Polishchuk \cite{MR3663596} established mirror symmetry between type $\textrm{I}_n$ singular fiber $Y_n$ and the $n$-punctured torus $T_n$, i.e.~ they showed that the derived category $D^b(Y_n)$ of coherent sheaves on $Y_n$ and the wrapped Fukaya category $D^\pi(\mathcal{W}(T_n))$ of $T_n$ are equivalent.
+    Lekili and Polishchuk \cite{MR3663596} established mirror symmetry between the type $\textrm{I}_n$ singular fiber $Y_n$ and the $n$-punctured torus $T_n$, i.e.~ they showed that the derived category $D^b(Y_n)$ of coherent sheaves on $Y_n$ and the wrapped Fukaya category $D^\pi(\mathcal{W}(T_n))$ of $T_n$ are equivalent.
 
     For example, the equivalence includes the following correspondence of objects, where $\gamma_F$ denotes the corresponding curve to the object $F \in D^b(Y_n)$:
     \begin{center}
@@ -274,7 +271,7 @@
     \end{center}
 
 
-    Combining this with the theory of topological Fukaya categories of surfaces by Haiden, Katzarkov, and Kontsevich \cite{MR3735868}, Opper \cite{2020arXiv201108288O} described the autoequivalence group of $D^b(Y_n)$ with the following exact sequence:
+    Combining this with the theory of topological Fukaya categories of surfaces developed by Haiden, Katzarkov, and Kontsevich \cite{MR3735868}, Opper \cite{2020arXiv201108288O} described the autoequivalence group of $D^b(Y_n)$ with the following exact sequence:
     \begin{tcolorbox}[
             colback = blue!10!white,
             colframe = blue!10!white,
@@ -323,8 +320,18 @@
     \color{DarkSlateGray}
     We study the group $B$ in terms of the mapping class group of the $n$-punctured torus.
     \begin{enumerate}
-        \item \colorbox{green!10!white}{We construct a natural ``restriction'' morphism $\res \colon B \to \Auteq{D^b(F)}$ for each }\\\colorbox{green!10!white}{fiber $F$, which is nontrivial if $F$ is reducible.}
-        \item Combining with mirror symmetry for the singular fibers of type $\textrm{I}_n$, we have the exact sequence
+        \item\leavevmode %<--------------
+        \adjustbox{valign=t}{%
+            \begin{tcolorbox}[
+                    %width=0.934\textwidth,
+                    colback={green!10!white},
+                    colframe = green!10!white,
+                    fonttitle = \bfseries,
+                    breakable = true
+                ]We construct a natural ``restriction'' morphism $\res \colon B \to \Auteq{D^b(F)}$ for each fiber $F$, which is nontrivial if $F$ is reducible.
+            \end{tcolorbox}
+        }
+        \item Combining with mirror symmetry for the singular fibers of type $\textrm{I}_n$, we have the exact sequences
               \begin{tcolorbox}[
                       colback = green!10!white,
                       colframe = green!10!white,
@@ -335,7 +342,7 @@
                   \end{equation*}\end{tcolorbox}
               where $Y_{n_j}$ is the singular fiber of type $\textrm{I}_{n_j}$ and $\{Y_{n_j}\}_{j=1}^m$ is the set of all singular fibers of $S$.
 
-        \item For $G \subset Y_{n}$, $a \in \bZ$, and the curve $\gamma_{\cO_G(a)}$ on $T_{n}$ corresponding to $\cO_{G}(a)$ under the equivalence $D^b(Y_n) \simeq D^\pi(\mathcal{W}(T_n))$, \colorbox{green!10!white}{the twist functor $T_{\cO_G(a)} \in B$ is mapped} \colorbox{green!10!white}{to the half twist along $\gamma_{\cO_G(a)}$ in $\MCG(T_n) \subset \prod_{j=1}^m \MCG(T_{n_j})$.}
+        \item For $G \subset Y_{n}$, $a \in \bZ$, and the curve $\gamma_{\cO_G(a)}$ on $T_{n}$ corresponding to $\cO_{G}(a)$ under the equivalence $D^b(Y_n) \simeq D^\pi(\mathcal{W}(T_n))$, \color{black}\colorbox{green!10!white}{the twist functor $T_{\cO_G(a)} \in B$ is mapped} \colorbox{green!10!white}{to the half twist along $\gamma_{\cO_G(a)}$ in $\MCG(T_n) \subset \prod_{j=1}^m \MCG(T_{n_j})$.}\color{DarkSlateGray}
         \item The image of $\Upsilon \circ \res$ is generated by the half twists along the finite number of curves $\{\gamma_{\cO_G}, \gamma_{\cO_G(-1)} \mid G \subset Y_{n_j}\text{: an irreducible component, } 1 \leq j \leq m \}$.
     \end{enumerate}
 
@@ -435,7 +442,7 @@
 
             By the first and second fact, we only need to check the identities $H(\gamma_{\cO_{Y_n}})=H'(\gamma_{\cO_{Y_n}}), H(\gamma_{\cO_{x_1}})=H'(\gamma_{\cO_{x_1}}), \dots, H(\gamma_{\cO_{x_n}})=H'(\gamma_{\cO_{x_n}})$ of curves.
 
-            Second, Due to the construction of $\Upsilon$ and $\res$, the curves $H(\gamma_{\cO_{Y_n}})$ and $H(\gamma_{\cO_{Y_n}})$ correspond to the objects $H_{\cO_G}(\cO_{Y_n})$ and $H_{\cO_G}(\cO_{x_i})$ under the third fact, respectively.
+            Second, due to the construction of $\Upsilon$ and $\res$, the curves $H(\gamma_{\cO_{Y_n}})$ and $H(\gamma_{\cO_{Y_n}})$ correspond to the objects $H_{\cO_G}(\cO_{Y_n})$ and $H_{\cO_G}(\cO_{x_i})$ under the third fact, respectively.
 
             Finally, these correspondences and the third fact enable us to collect some data of intersection numbers between $H(\gamma_{\cO_{Y_n}})$ (or $H(\gamma_{\cO_{x_i}})$) and other curves via basic computations in homological algebra. We can compute enough intersection numbers to determine the curves $H(\gamma_{\cO_{Y_n}})$ and $H(\gamma_{\cO_{x_i}})$, and this finishes the proof of the result (3).
         \end{proof}
