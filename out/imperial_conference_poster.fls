@@ -461,6 +461,9 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr7t.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
@@ -471,15 +474,12 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmri7t.tfm
 OUTPUT out/imperial_conference_poster.pdf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
@@ -497,6 +497,8 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
@@ -504,8 +506,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmri7t.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmri8r.tfm
 INPUT out/imperial_conference_poster.aux
