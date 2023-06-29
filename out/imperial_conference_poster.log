@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.20)  29 JUN 2023 22:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.20)  29 JUN 2023 22:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/araihayato/Documents/tex_files/working_en/imperial_conference/conference_poster_5.tex
-(/Users/araihayato/Documents/tex_files/working_en/imperial_conference/conference_poster_5.tex
+**/Users/araihayato/Documents/tex_files/working_en/imperial_conference/imperial_conference_poster.tex
+(/Users/araihayato/Documents/tex_files/working_en/imperial_conference/imperial_conference_poster.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-05-15> (./a0poster.cls
 Document Class: a0poster 1997/05/07 v1.21b a0poster class (GK, MW)
@@ -612,8 +612,8 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count326
 \l__pdf_internal_box=\box128
-) (out/conference_poster_5.aux)
-\openout1 = `conference_poster_5.aux'.
+) (out/imperial_conference_poster.aux)
+\openout1 = `imperial_conference_poster.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
 LaTeX Font Info:    ... okay on input line 118.
@@ -688,7 +688,7 @@ Overfull \hbox (7.465pt too wide) in paragraph at lines 323--334
 
 Non-PDF special ignored!
 <special> papersize=118.82cm,83.96cm
-{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] (out/conference_poster_5.aux)
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}] (out/imperial_conference_poster.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 10.95pt have occurred.
@@ -696,14 +696,14 @@ LaTeX Font Warning: Size substitutions with differences
  ) 
 Here is how much of TeX's memory you used:
  22781 strings out of 476097
- 490715 string characters out of 5791132
+ 490799 string characters out of 5791132
  1927851 words of memory out of 5000000
  42766 multiletter control sequences out of 15000+600000
  547831 words of font info for 112 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,15n,94p,1083b,1232s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,15n,94p,1090b,1232s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on out/conference_poster_5.pdf (1 page, 121353 bytes).
+Output written on out/imperial_conference_poster.pdf (1 page, 121353 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  35 compressed objects within 1 object stream
